@@ -1,11 +1,11 @@
 services:
-  deadsea-scrolls-dev:
-    image: deadsea-scrolls-dev
-    container_name: deadsea-scrolls-dev
+  dead-sea-scrolls-dev:
+    image: dead-sea-scrolls-dev
+    container_name: dead-sea-scrolls-dev
     build:
       context: ../.
       dockerfile: ./.devcontainer/Dockerfile
-    working_dir: /deadsea-scrolls
+    working_dir: /dead-sea-scrolls
     volumes:
-      - ..:/deadsea-scrolls:cached
+      - ..:/dead-sea-scrolls:cached
     tty: true

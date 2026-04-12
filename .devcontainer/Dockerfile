@@ -1,6 +1,6 @@
 FROM node:22
 
-WORKDIR /deadsea-scrolls
+WORKDIR /dead-sea-scrolls
 
 # Teclado português com horário brasileiro
 ENV LANG=C.UTF-8

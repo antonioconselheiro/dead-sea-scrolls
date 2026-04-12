@@ -21,6 +21,6 @@ echo "[user]
     editor = code --wait
 
 [safe]
-    directory = /deadsea-scrolls" > .gitconfig
+    directory = /dead-sea-scrolls" > .gitconfig
 
 echo "now paste the content of .ssh/id_ed25519.pub into https://github.com/settings/ssh/new"

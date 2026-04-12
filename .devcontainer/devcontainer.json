@@ -1,10 +1,10 @@
 {
-  "name": "Deadsea Scrolls Dev",
+  "name": "Dead Sea Scrolls Dev",
   "dockerComposeFile": [
     "docker-compose.yml"
   ],
-  "service": "deadsea-scrolls-dev",
-	"workspaceFolder": "/deadsea-scrolls",
+  "service": "dead-sea-scrolls-dev",
+	"workspaceFolder": "/dead-sea-scrolls",
 	"postCreateCommand": "./.devcontainer/auth.sh",
 	"customizations": {
 		"vscode": {
